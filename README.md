@@ -1,24 +1,13 @@
 # nig-covid19
 
-## Project setup
-```
-npm install
-```
+_A realtime Nigeria Covid-19 Updates_
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## **Stay Safe**
 
-### Compiles and minifies for production
-```
-npm run build
-```
+_Let's make sure we are taking all the necessary steps in stopping the spread of the virus(Corona Virus)_
 
-### Lints and fixes files
-```
-npm run lint
-```
+### Visit NCDC for more Information
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+See [NCDC website for more Info](https://ncdc.gov.ng/).
+
+Also follow on [Twitter](https://twitter.com/NCDCgov)

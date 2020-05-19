@@ -20,12 +20,12 @@
           </thead>
           <tbody>
             <tr v-for="(state, i) in stateResult" :key="i">
-              <th scope="row">{{i + 1}}</th>
-              <td>{{state.state}}</td>
-              <td>{{state.confirmedCases}}</td>
-              <td>{{state.casesOnAdmission}}</td>
-              <td>{{state.discharged}}</td>
-              <td>{{state.death}}</td>
+              <th scope="row">{{ i + 1 }}</th>
+              <td>{{ state.state }}</td>
+              <td>{{ state.confirmedCases }}</td>
+              <td>{{ state.casesOnAdmission }}</td>
+              <td>{{ state.discharged }}</td>
+              <td>{{ state.death }}</td>
             </tr>
           </tbody>
         </table>

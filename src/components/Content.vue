@@ -4,7 +4,7 @@
     <h4>
       Over
       <i class="fa fa-users fa-1x"></i>
-      {{totalTest}} tests conducted
+      {{ totalTest }} tests conducted
     </h4>
   </div>
 </template>

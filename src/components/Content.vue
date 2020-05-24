@@ -1,6 +1,6 @@
 <template>
   <div class="container mt-3">
-    <h1 class="text-left">Nigeria Covid-19 Real Time Updates as at {{getPresentDateTime}}</h1>
+    <h1 class="text-left">Nigeria Covid-19 Real Time Updates as at <span class="text-success font-italic">{{getPresentDateTime}}</span></h1>
     <h4>
       Over
       <i class="fa fa-users fa-1x"></i>

@@ -4,7 +4,10 @@
       <div class="col-md-3">
         <div class="card-counter primary">
           <i class="fas fa-viruses fa-2x"></i>
-          <span class="count-numbers">{{confirmedCases}}</span>
+          <div v-if="!confirmedCases" class="count-spinner d-flex align-items-end">
+            <div class="spinner-grow text-light ml-auto" role="status" aria-hidden="true"></div>
+          </div>
+          <span v-else class="count-numbers">{{confirmedCases}}</span>
           <span class="count-name">Confirmed Cases</span>
         </div>
       </div>
@@ -12,7 +15,10 @@
       <div class="col-md-3">
         <div class="card-counter info">
           <i class="fas fa-head-side-virus fa-2x"></i>
-          <span class="count-numbers">{{activeCases}}</span>
+          <div v-if="!activeCases" class="count-spinner d-flex align-items-end">
+            <div class="spinner-grow text-light ml-auto" role="status" aria-hidden="true"></div>
+          </div>
+          <span v-else class="count-numbers">{{activeCases}}</span>
           <span class="count-name">Active Cases</span>
         </div>
       </div>
@@ -20,7 +26,10 @@
       <div class="col-md-3">
         <div class="card-counter success">
           <i class="fas fa-virus-slash fa-2x"></i>
-          <span class="count-numbers">{{discharged}}</span>
+          <div v-if="!discharged" class="count-spinner d-flex align-items-end">
+            <div class="spinner-grow text-light ml-auto" role="status" aria-hidden="true"></div>
+          </div>
+          <span v-else class="count-numbers">{{discharged}}</span>
           <span class="count-name">Discharged</span>
         </div>
       </div>
@@ -28,7 +37,10 @@
       <div class="col-md-3">
         <div class="card-counter danger">
           <i class="fas fa-user-times fa-2x"></i>
-          <span class="count-numbers">{{death}}</span>
+          <div v-if="!death" class="count-spinner d-flex align-items-end">
+            <div class="spinner-grow text-light ml-auto" role="status" aria-hidden="true"></div>
+          </div>
+          <span v-else class="count-numbers">{{death}}</span>
           <span class="count-name">Death</span>
         </div>
       </div>
@@ -99,6 +111,7 @@ export default {
   top: 20px;
   font-size: 32px;
   display: block;
+  transition: all .2s;
 }
 
 .card-counter .count-name {
@@ -111,4 +124,13 @@ export default {
   display: block;
   font-size: 18px;
 }
+.card-counter .count-spinner {
+  position: absolute;
+  right: 35px;
+  top: 20px;
+  font-size: 32px;
+  display: block;
+}
+
+
 </style>

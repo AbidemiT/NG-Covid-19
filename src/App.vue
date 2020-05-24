@@ -6,12 +6,14 @@
     <Content />
     <Card />
     <StateTable />
+    <Foot/>
   </div>
 </template>
 
 <script>
 import Content from "./components/Content.vue";
 import Card from "./components/Card.vue";
+import Foot from "./components/FooterContent.vue";
 import StateTable from "./components/StateTable.vue";
 
 export default {
@@ -19,7 +21,8 @@ export default {
   components: {
     Card,
     Content,
-    StateTable
+    StateTable,
+    Foot
   },
   mounted() {
     this.loadNgCovidData();

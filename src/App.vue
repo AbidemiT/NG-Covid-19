@@ -44,11 +44,4 @@ export default {
   color: #2c3e50;
   margin-top: 30px;
 }
-
-.landing {
-  /* background: url("../src/assets/733.jpg") 40% / 10em gray round fixed
-    border-box no-repeat;
-  height: 100vh;
-  width: 500px; */
-}
 </style>

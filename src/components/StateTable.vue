@@ -15,7 +15,7 @@
               <th scope="col">Confirmed Cases</th>
               <th scope="col">Cases On Admission</th>
               <th scope="col">Discharged</th>
-              <th scope="col">Death</th>
+              <th scope="col">Deaths</th>
             </tr>
           </thead>
           <tbody>

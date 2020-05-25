@@ -11,7 +11,6 @@
           <span class="count-name">Confirmed Cases</span>
         </div>
       </div>
-
       <div class="col-md-3">
         <div class="card-counter info">
           <i class="fas fa-head-side-virus fa-2x"></i>
@@ -41,7 +40,7 @@
             <div class="spinner-grow text-light ml-auto" role="status" aria-hidden="true"></div>
           </div>
           <span v-else class="count-numbers">{{death}}</span>
-          <span class="count-name">Death</span>
+          <span class="count-name">Deaths</span>
         </div>
       </div>
     </div>

@@ -1,8 +1,8 @@
 <template>
   <div class="footer">
     <div>
-      Source: The Covid-19 Data was gotten from the NCDC Website By
-      <a href="mailto:sinkopus2000@gmail.com">Sinkopus</a>
+      Source: The Covid-19 Data was gotten from the <a href="https://ncdc.gov.ng/">NCDC Website</a> By
+      <a href="https://github.com/sink-opuba/covid-19-nigeria-api">Sinkopuba</a>
     </div>
     <div>
       Web App built By

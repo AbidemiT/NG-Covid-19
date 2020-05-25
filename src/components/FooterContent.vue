@@ -6,7 +6,7 @@
     </div>
     <div>
       Web App built By
-      <a href="mailto:tiamiyusikiruabidemi@gmail.com">Tiamiyu Sikiru Abidemi</a>
+      <a href="mailto:tiamiyusikiruabidemi@gmail.com">Tiamiyu Sikiru Abidemi ☮</a>
     </div>
     <a href="https://www.facebook.com/TiamiyuSikiruAbidemi" class="mr-2">
         <i class="fab fa-facebook fa-2x"></i>
